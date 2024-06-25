@@ -1,0 +1,62 @@
+# Java class files
+*.class
+
+# Miscellaneous
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/android/.gradle/
+
+# Keystore files
+# Uncomment the following line if you do not want to check your keystore files in.
+*.jks
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+firebase.json
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+### https://raw.github.com/github/gitignore/80a8803b004013d17291196825a327b9e871f009/Global/VisualStudioCode.gitignore
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
